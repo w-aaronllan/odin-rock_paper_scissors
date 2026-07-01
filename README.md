@@ -1,2 +1,2 @@
 # odin-rock_paper_scissors
-TOP - JS Rock Paper Scissors
+TOP Foundations - JS Rock Paper Scissors
