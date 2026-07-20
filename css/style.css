@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+footer{
+    text-align: center;
+}
+
+h1{
+    display: inline;
+}
+
+.nav{
+    border: solid;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.navRight{
+    display: flex;
+    column-gap: 50px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.divUser, .divVs, .divComputer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divVs{
+    row-gap: 20px;
+}
+
+.userMove, .move, .play{
+    font-size: 100px;
+    border: solid;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#score{
+    text-align: center;
+}
