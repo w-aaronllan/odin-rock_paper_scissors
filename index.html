@@ -4,8 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header>
+        <div class="nav">
+            <h1>Rock Paper Scissors</h1>
+            <div class="navRight">
+                <a href="#">Play</a>
+                <a href="#">About</a>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="divUser">
+            <h1>User</h1>
+            <div class="userMove" id="rock">✊🏻</div>
+            <div class="userMove" id="paper">🖐🏻</div>
+            <div class="userMove" id="scissors">✌🏻</div>   
+        </div>  
+        <div class="divVs">
+            <h1>VS.</h1>
+            <h1 class="play">Play</h1>
+        </div>  
+        <div class="divComputer">
+            <h1>Computer</h1>
+            <div class="move" id="rockComputer">✊🏻</div>
+            <div class="move" id="paperComputer">🖐🏻</div>
+            <div class="move" id="scissorsComputer">✌🏻</div>   
+        </div>      
+    </div>
+    <div id="score">
+    </div>
+    <footer>
+        <h4>20Jul2026</h4>
+    </footer>
     <script src="js/rock_paper_scissors.js"></script>
 </body>
 </html>
